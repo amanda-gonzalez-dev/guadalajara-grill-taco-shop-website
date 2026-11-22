@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Guadalajara Grill Taco Shop</title>
+
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+      rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="logo.jpeg" class="logo-img" alt="Guadalajara Grill Taco Shop Logo" width="150" height="100">
+            Guadalajara Grill Taco Shop
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 d-none d-md-block position-sticky top-0 vh-100 pt-5 ps-4">
+          <h1>Menu</h1>
+          <ul class="categories">
+          <li><a href="#popular-items">Popular</a></li>
+          <li><a href="#breakfast">Breakfast</a></li>
+          <li><a href="#tacos">Tacos</a></li>
+          <li><a href="#burritos">Burritos</a></li>
+          <li><a href="#caldos">Caldos</a></li>
+          <li><a href="#combination-plates">Combination Plates</a></li>
+          <li><a href="#antojitos">Antojitos</a></li>
+          <li><a href="#sides">Sides</a></li>
+          <li><a href="#beverages">Beverages</a></li>
+        </ul>
+      </div>
+
+      <!--Popular Menu Items-->
+       <div class="col-12 col-md-9 pt-5">
+        <section id="popular-items" class="my-5">
+          <h2>Popular Items</h2>
+          <div class="row g-4">
+            
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="breakfast_burrito.jpeg" class="card-img-top" alt="breakfast burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Breakfast Burrito</h2>
+                  <p class="card-text">Scrambled eggs, veans, cispy potatoes, and your choice of meat, cheese, and salsa.</p>
+                  <p>Starting at: $12.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="menudo.jpeg" class="card-img-top" alt="menudo plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Menudo</h2>
+                  <p class="card-text">Diced onions, fresh cilantro, lime, and a side of tortillas.</p>
+                  <p>Starting at: $15.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="quesabirria.jpeg" class="card-img-top" alt="quesabirria plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Quesabirria</h2>
+                  <p class="card-text">Cooked beef folded into tortilla, melted cheese, and a side of onion and cilantro.</p>
+                  <p>Starting at: $4.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="regular_burrito.jpeg" class="card-img-top" alt="regular burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Regular Burrito</h2>
+                  <p class="card-text">Rice, beans, choice of meat, cilantro, salsa, lettuce, and a side of pico de gallo.</p>
+                  <p>Starting at: $11.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="super_burrito.jpeg" class="card-img-top" alt="super burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Super Burrito</h2>
+                  <p class="card-text">Rice, beans, onion, cilantro, salsa, cheese, sour cream, lettuce, guacamole, and a side of pico de gallo.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="3_taco_combo.jpeg" class="card-img-top" alt="3 tacos combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Taco Combo</h2>
+                  <p class="card-text">3 Tacos with meat of your choice, onion, cilantro, salsa, and a side of rice and beans.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Breakfast -->
+        <section id="breakfast" class="my-5">
+          <h2>Breakfast</h2>
+          <div class="row g-4">
+            
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="breakfast_burrito.jpeg" class="card-img-top" alt="breakfast burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Breakfast Burrito</h2>
+                  <p class="card-text">Scrambled eggs, veans, cispy potatoes, and your choice of meat, cheese, and salsa.</p>
+                  <p>Starting at: $12.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="chilaquiles_breakfast_plate.jpeg" class="card-img-top" alt="chilaquiles plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Chilaquiles Breakfast Plate</h2>
+                  <p>Starting at: $12.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="breakfast_tacos.jpeg" class="card-img-top" alt="breakfast tacos plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Breakfast Tacos</h2>
+                  <p>Starting at: $4.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="breakfast_plate.jpeg" class="card-img-top" alt="a breakfast plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Breakfast Plate</h2>
+                  <p class="card-text">Scrambled eggs with choice of meat, beans, and tortillas.</p>
+                  <p>Starting at: $12.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Tacos -->
+        <section id="tacos" class="my-5">
+          <h2>Tacos</h2>
+          <div class="row g-4">
+            
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="street_tacos.jpeg" class="card-img-top" alt="street tacos plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Street Tacos</h2>
+                  <p class="card-text">Choice of meat, onion, cilantro, and salsa.</p>
+                  <p>Starting at: $3.25</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="quesabirria.jpeg" class="card-img-top" alt="quesabirria plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Quesabirria</h2>
+                  <p class="card-text">Cooked beef folded into tortilla, melted cheese, and a side of onion and cilantro.</p>
+                  <p>Starting at: $4.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="shrimp_tacos.jpeg" class="card-img-top" alt="shrimp tacos plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Shrimp (Camaron) Tacos</h2>
+                  <p class="card-text">Shrimp tacos grilled with bell pepper and onion, coleslaw, and our house dressing.</p>
+                  <p>Starting at: $4.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="gobernador_tacos.jpeg" class="card-img-top" alt="gobernador tacos plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Gobernador Tacos</h2>
+                  <p class="card-text">Tacos with shrimp, guacha, coleslaw, cheese, and pico de gallo.</p>
+                  <p>Starting at: $4.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Burritos -->
+        <section id="burritos" class="my-5">
+          <h2>Burritos</h2>
+          <div class="row g-4">
+            
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="super_burrito.jpeg" class="card-img-top" alt="super burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Super Burrito</h2>
+                  <p class="card-text">Rice, beans, onion, cilantro, salsa, cheese, sour cream, lettuce, guacamole, and a side of pico de gallo.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="california_burrito.jpeg" class="card-img-top" alt="california burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">California Burrito</h2>
+                  <p class="card-text">Choice of meat, with rice, beans, onion, cilantro, salsa, cheese, sour cream, guacamole, and fries.</p>
+                  <p>Starting at: $13.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="wet_burrito.jpeg" class="card-img-top" alt="a plate of a burrito on top of salsa">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Wet Burrito</h2>
+                  <p class="card-text">Red or green salsa option, rice, beans, choice of meat, onion, cilantro, and cheese and sour cream on top.</p>
+                  <p>Starting at: $13.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="regular_burrito.jpeg" class="card-img-top" alt="regular burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Regular Burrito</h2>
+                  <p class="card-text">Rice, beans, choice of meat, cilantro, salsa, lettuce, and a side of pico de gallo.</p>
+                  <p>Starting at: $11.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Chile Relleno Burrito</h2>
+                  <p class="card-text">Cheese-filled chile relleno in a burrito, with rice, beans, onion, cilantro, and salsa.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Veggie Burrito</h2>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="shrimp_burrito.jpeg" class="card-img-top" alt="shrimp burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Shrimp Burrito</h2>
+                  <p class="card-text">Burrito filled with shrimp, rice, beans, and coleslaw.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="diabla_burrito.jpeg" class="card-img-top" alt="diabla burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Diabla Burrito</h2>
+                  <p class="card-text">Spicy shimp a la diabla, rice, beans, coleslaw, and house dressing.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="bean_rice_cheese_burrito.jpeg" class="card-img-top" alt="rice, bean, and cheese burrito plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Bean, Rice, and Cheese Burrito</h2>
+                  <p>Starting at: $6.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Caldos -->
+        <section id="caldos" class="my-5">
+          <h2>Caldos</h2>
+          <div class="row g-4">
+            
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="albondigas.jpeg" class="card-img-top" alt="albondigas plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Albondigas</h2>
+                  <p class="card-text">Meatball soup with carrots, potatoes, and zucchini, served with cilantro, diced onions, and a wedge of lime.</p>
+                  <p>Starting at: $14.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="menudo.jpeg" class="card-img-top" alt="menudo plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Menudo</h2>
+                  <p class="card-text">Diced onions, fresh cilantro, lime, and a side of tortillas.</p>
+                  <p>Starting at: $15.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="birria_de_res.jpeg" class="card-img-top" alt="birria de res plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Birria de res</h2>
+                  <p class="card-text">Beef stew served with fresh cilantro, diced onions, tortillas, and a wedge of lime.</p>
+                  <p>Starting at: $15.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="caldo_de_res.jpeg" class="card-img-top" alt="caldo de res plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Caldo de res</h2>
+                  <p class="card-text">Beef and vegstable soup with corn, potatoes, zucchini, tortillas, and carrots.</p>
+                  <p>Starting at: $14.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Combination Plates -->
+        <section id="combination-plates" class="my-5">
+          <h2>Combination Plates</h2>
+          <div class="row g-4">
+            
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="carnitas_combo.jpeg" class="card-img-top" alt="carnitas combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Carnitas Combo</h2>
+                  <p class="card-text">Carnitas combo with rice, beans, lettuce, pico and tortilla.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="3_taco_combo.jpeg" class="card-img-top" alt="3 tacos combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Taco Combo</h2>
+                  <p class="card-text">3 Tacos with meat of your choice, onion, cilantro, salsa, and a side of rice and beans.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="asada_combo.jpeg" class="card-img-top" alt="asada combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Asada Combo</h2>
+                  <p class="card-text">Rice, beans, lettuce, tortillas, and pico de gallo.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="chicken_combo.jpeg" class="card-img-top" alt="chicken combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Chicken Combo</h2>
+                  <p class="card-text">Chicken combo with rice, beans, cheese, lettuce, pico and tortillas.</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="chile_verde_combo.jpeg" class="card-img-top" alt="chile verde combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Chile verde combo</h2>
+                  <p class="card-text">Chile verde combo with rice, beans, cheese, lettuce, pico and tortillas..</p>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="enchilada_combo.jpeg" class="card-img-top" alt="enchilada combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Enchilada Combo</h2>
+                  <p class="card-text">Rice, beans, choice of meat, lettuce, and pico de gallo.</p>
+                  <p>Starting at: $13.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="quesabirria_combo.jpeg" class="card-img-top" alt="quesabirria combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Quesabirria Combo</h2>
+                  <p class="card-text">2 Quesabirrias with a side of rice, beans, consome, onion, cilantro, and lemon.</p>
+                  <p>Starting at: $13.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="chile_relleno_combo.jpeg" class="card-img-top" alt="chile relleno combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Chile relleno combo</h2>
+                  <p>Starting at: $12.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="burrito_combo.jpeg" class="card-img-top" alt="burrito combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Burrito Combo</h2>
+                  <p class="card-text">Burrito combo with a regular burrito, fries, and your choice of beverage.</p>
+                  <p>Starting at: $13.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="taquitos_combo.jpeg" class="card-img-top" alt="taquitos combination plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Taquitos Combo</h2>
+                  <p class="card-text">Lettuce, pico, cheese, and sour cream.</p>
+                  <p>Starting at: $11.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+        <!-- Antojitos -->
+        <section id="antojitos" class="my-5">
+          <h2>Antojitos</h2>
+          <div class="row g-4">
+            
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="quesadilla.jpeg" class="card-img-top" alt="quesadilla plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Quesadilla</h2>
+                  <p class="card-text">Choice of meat, beans, onion, cilatro, sour cream, lettuce, and pico de gallo.</p>
+                  <p>Starting at: $11.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="torta.jpeg" class="card-img-top" alt="torta plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Torta</h2>
+                  <p class="card-text">Torta with choice of meat, beans, lettuce, tomato, onion, jalapenos, and quacamole.</p>
+                  <p>Starting at: $11.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="sope.jpeg" class="card-img-top" alt="sope plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Sope</h2>
+                  <p class="card-text">Choice of meat, beans, lettuce, tomato, onion, sour cream, cheese, and salsa.</p>
+                  <p>Starting at: $6.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="3_taquitos.jpeg" class="card-img-top" alt="3 taquitos plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">3 Taquitos dorados a la carte</h2>
+                  <p class="card-text">Shredded beef or chicken, lettuce, pico de gallo, cheese, and sour cream.</p>
+                  <p>Starting at: $6.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="asada_fries.jpeg" class="card-img-top" alt="asada fries plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Asada Fries Combo</h2>
+                  <p class="card-text">French fries loaded with carne asada, cheese, sour cream, guacamole, pico de gallo, and jalapenos.</p>
+                  <p>Starting at: $14.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="asada_nachos.jpeg" class="card-img-top" alt="asada nachos plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Asada Nachos</h2>
+                  <p class="card-text">Tortilla chips loaded with choice of meat, cheese, sour cream, guacamole, pico de gallo, and jalapenos.</p>
+                  <p>Starting at: $14.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <img src="cheese_quesadilla.jpeg" class="card-img-top" alt="cheese quesadilla plate">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Cheese Quesadilla</h2>
+                  <p class="card-text">Cheese only Quesadilla.</p>
+                  <p>Starting at: $9.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+        <!-- Sides -->
+        <section id="sides" class="my-5">
+          <h2>Sides</h2>
+          <div class="row g-4">
+            
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Salsa</h2>
+                  <p class="card-text">16oz</p>
+                  <p>Starting at: $6.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Avacado</h2>
+                  <p class="card-text">4 slices</p>
+                  <p>Starting at: $1.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Fries</h2>
+                  <p class="card-text">Side of fries</p>
+                  <p>Starting at: $3.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Rice</h2>
+                  <p class="card-text">Side of rice</p>
+                  <p>Starting at: $2.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Chips & Salsa</h2>
+                  <p class="card-text">Chips with 8oz of red or green salsa</p>
+                  <p>Starting at: $5.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Homemade Tortillas</h2>
+                  <p class="card-text">Side of homemade tortillas</p>
+                  <p>Starting at: $2.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Extra Meat</h2>
+                  <p>Starting at: $1.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Extra Cheese</h2>
+                  <p>Starting at: $1.00</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Guacamole</h2>
+                  <p class="card-text">Side of 2oz guacamole</p>
+                  <p>Starting at: $1.15</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Extra Sour Cream</h2>
+                  <p>Starting at: $0.75</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff;border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Beans</h2>
+                  <p class="card-text">Side of beans</p>
+                  <p>Starting at: $2.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+        <!-- Beverages -->
+        <section id="beverages" class="my-5">
+          <h2>Beverages</h2>
+          <div class="row g-4">
+            
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Soda</h2>
+                  <p class="card-text">Pepsi, Sprite, Coca Cola, Squirt, Fanta, and Diet Pepsi.</p>
+                  <p>Starting at: $1.50</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-md-4 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body" style="background-color:#f5dac1;">
+                  <h2 class="card-title">Aguas Frescas</h2>
+                  <p class="card-text">Horchata, Cucumber & Spinach, Tart Hibiscus, Luscious Cantaloupe, and Zesty Lime.</p>
+                  <p>Starting at: $3.99</p>
+                  <a href="https://www.doordash.com/store/guadalajara-grill-taco-shop-visalia-24746545/39302221/?srsltid=AYCX9vIRqS3iifYArWVIJ3zkRqRVEbpKY6D3nEXKNXxbqYQD6a4bfFBM" class="btn btn-secondary" style="background-color:#ffffff; border:none; color:black;">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p>&copy; 2026 Guadalajara Grill Taco Shop</p>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
